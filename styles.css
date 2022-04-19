@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sfu futura';
+}
+.page-1 {
+    background-image: url('IMG/anh1.jpg');
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.banner-menu > img {
+    width: 250px;
+}
+.banner-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul > li {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.video-content {
+    padding: 90px;
+    position: relative;
+}
+.video-overlay-content > h1 {
+    color: white;
+}
+.video-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 88.1%;
+    height: 80.5%;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.video-overlay-content {
+    z-index: 100;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.video-content:hover .video-overlay {
+    opacity: 1;
+}
+.bike-series {
+    width: 100%;
+}
+.box {
+    position: relative;
+}
+.box > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    z-index: 1;
+}
+.overlay:hover {
+    font-size: 25px;
+}
+.box:hover .overlay {
+    opacity: 1;
+}
+.banner {
+    margin-bottom: 30px;
+}
+.banner > img {
+    margin-top: 50px;
+    width: 100%;
+}
+.text-lorem {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 1px #cccccc;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.footer-title > h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-title > h2, .footer-title > p {
+    color: white;
+    text-align: center;
+}
+
+.footer-logo > img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
